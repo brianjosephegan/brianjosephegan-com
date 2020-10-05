@@ -1,11 +1,5 @@
-html {
+html, body {
     height: 100%;
-}
-
-body {
-    background-image: url("https://images.unsplash.com/photo-1538481199705-c710c4e965fc");
-    background-size: cover;
-    background-position: center;
     font-family: 'Roboto Mono', monospace;
 }
 
@@ -24,7 +18,39 @@ hr {
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.bgimg-1 {
+    background-image: url("images/backgroundImageCode.jpg");
+    min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url("images/backgroundImageCode2.jpg");
+  min-height: 400px;
+}
+
+.greeting {
+    text-align: center;
+    padding-top: 15%;
+}
+
 .content {
     text-align: center;
-    padding-top: 25%;
+    padding: 5% 5%;
+}
+
+.content p {
+    padding-top: 3%;
+}
+
+.jumbotron {
+    border-radius: 0;
 }
